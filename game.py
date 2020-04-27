@@ -1,6 +1,7 @@
 import numpy as np
 import enum
 
+# Class containing the core game logic
 class Game:
     # Enum class to denote the direction of a move
     class Direction(enum.Enum):

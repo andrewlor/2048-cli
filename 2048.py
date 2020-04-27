@@ -1,3 +1,5 @@
+# Driver to play the game on the CLI
+
 import readchar
 from game import Game
 
