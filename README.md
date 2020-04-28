@@ -15,12 +15,12 @@ python3 2048.py
 ![](sample.png)
 
 ### Simulation
-You can also write/run simulations. Take a look in the `/algos` directory to see how it works. Then run the `run_simulation` script from the repo root.
+You can also write/run simulations. Take a look in the `/simulation` directory to see how it works. Then run the `run_simulation` script from the repo root.
 
 ```
 Usage: [ --stat ] algorithm [ times ]
 --stat: display statistical summary of scores, otherwise full dataset is printed
-algorithm: name of the algorithm you want to run. Must be a .py file in /algos
+algorithm: name of the algorithm you want to run. Must be a .py file in /simulation
 times: the number of simulations to run
 ```
 
