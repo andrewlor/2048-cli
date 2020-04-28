@@ -16,15 +16,20 @@ python3 2048.py
 
 ### Simulation
 You can also write/run simulations. Take a look in the `/algos` directory to see how it works. Then run the `run_simulation` script from the repo root.
+
 ```
-chmod u+x run_simulation
-./run_simulation random
-Starting simulation...
---------------------------------
-Score: 1288
-8	4	8	4	
-16	8	32	2	
-8	64	128	16	
-4	16	32	2	
-Simulation complete.
+Usage: [ --stat ] algorithm [ times ]
+--stat: display statistical summary of scores, otherwise full dataset is printed
+algorithm: name of the algorithm you want to run. Must be a .py file in /algos
+times: the number of simulations to run
+```
+
+#### Example
+```
+./run_simulation --stat down 100
+Mean: 7.68
+./run_simulation --stat random 100
+Mean: 861.4
+./run_simulation --stat axis 100
+Mean: 1351.96
 ```

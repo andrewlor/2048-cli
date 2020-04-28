@@ -2,4 +2,4 @@
 
 root_dir=${PWD##*/}
 cd ..
-python3 -m $root_dir.simulation.$1
+python3 -m $root_dir.run_simulation $@

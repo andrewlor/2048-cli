@@ -9,13 +9,10 @@ class Algorithm:
 
     # Harness to simulate the algorithm
     def simulate(self):
-        print('Starting simulation...')
-        
         game = Game()
         game.spawn()
         game.spawn()
         self._run(game)
-        game.print()
         
-        print('Simulation complete.')
+        return game.getScore()
         
